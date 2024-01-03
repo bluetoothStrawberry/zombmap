@@ -34,7 +34,7 @@ LISTEN             0                   511                                      
   ```
   The printer is at the ip : 192.168.48.2 
   what we gonna do is write a short script
-  that will take advatange of furture of ipv4 header.
+  that will take advatange of feature of ipv4 header.
   Every time our zombie boy sends a RST it inscreases it's ip Id by one on port 80
   here's the doc cus I'm lazy 
   ```
