@@ -1,5 +1,7 @@
 # zombmap Idle Scan Poc? 
 
+- The goal here is just to play with idle scan, and understand it at a deeper level.
+-  I prefer using nmap anyway `nmap -n -Pn -sI zombie_boy target`
 
 - Here we have our target   192.168.48.132
 ```
