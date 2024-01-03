@@ -42,8 +42,7 @@ LISTEN             0                   511                                      
   # From attacker, using printer as zombie,, scanning --> webserver
   # it will take long. I was a  bit scary or running this slowly(I'm using python)
   # So I tried to make even slower by adding sleep(wait_time) 
-root@debian:~# ./main.py 
-22
-80
-3306
+    root@debian:~# ./main.py 
+
+    returns: 22803306
   ```
