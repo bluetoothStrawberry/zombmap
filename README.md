@@ -46,5 +46,21 @@ LISTEN             0                   511                                      
   # So I tried to make even slower by adding sleep(wait_time) 
     root@debian:~# ./main.py 
 
-    returns: 22, 80, 3306
+    returns: 22, 80, ( and it will not bring 3306, cus it listening only on 127.0.0.1)
+  ```
+
+----
+    - Easy way 
+  ```
+    root@debian:~# nmap -n -Pn -sI 192.168.48.2 192.168.48.132 
+    Starting Nmap 7.93 ( https://nmap.org ) at 2024-01-03 20:24 -03
+    Idle scan using zombie 192.168.48.2 (192.168.48.2:80); Class: Incremental
+    Nmap scan report for 192.168.48.132
+    Host is up (0.036s latency).
+    Not shown: 998 closed|filtered tcp ports (no-ipid-change)
+    PORT   STATE SERVICE
+    22/tcp open  ssh
+    80/tcp open  http
+    MAC Address: 00:0C:29:xx:xx:xx (VMware)
+
   ```
