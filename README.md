@@ -44,5 +44,5 @@ LISTEN             0                   511                                      
   # So I tried to make even slower by adding sleep(wait_time) 
     root@debian:~# ./main.py 
 
-    returns: 22803306
+    returns: 22, 80, 3306
   ```
