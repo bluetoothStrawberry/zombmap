@@ -1,4 +1,5 @@
 # zombmap Idle Scan Poc? 
+- Practice for [THM Advanced nmap stuff](https://tryhackme.com/room/nmap03)
 
 - The goal here is just to play with idle scan, and understand it at a deeper level.
 -  I prefer using nmap anyway `nmap -n -Pn -sI zombie_boy target`
@@ -42,7 +43,7 @@ LISTEN             0                   511                                      
 - Running
   ```
   # From attacker, using printer as zombie,, scanning --> webserver
-  # it will take long. I was a  bit scary or running this slowly(I'm using python)
+  # it will take long. I was a  bit scared or running this slowly(I'm using python)
   # So I tried to make even slower by adding sleep(wait_time) 
     root@debian:~# ./main.py 
 
